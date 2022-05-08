@@ -1,0 +1,4 @@
+<!--pages/info/info.wxml-->
+<text>pages/info/info.wxml</text>
+
+<button bindtap="goBack">返回上一页</button>

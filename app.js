@@ -1,3 +1,8 @@
+import { promisifyAll } from 'miniprogram-api-promise'
+
+const wxp = wx.p = {};
+//promisify all wx's api
+promisifyAll(wx, wxp);
 // app.js
 App({
   onLaunch() {

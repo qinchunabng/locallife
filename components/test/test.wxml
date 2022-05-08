@@ -1,0 +1,8 @@
+<!--components/test/test.wxml-->
+<!--
+  1.全局样式对组件无效
+  2.id选择器、属性选择器、标签选择器不受样式的影响
+-->
+<text class="g-red-text">{{count}}</text>
+<button bindtap="addCount">+1</button>
+<view>max属性的值：{{max}}</view>
