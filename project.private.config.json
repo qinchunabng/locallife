@@ -28,6 +28,13 @@
           "query": "id=1&title=美食",
           "launchMode": "default",
           "scene": null
+        },
+        {
+          "name": "pages/storeTest/storeTest",
+          "pathName": "pages/storeTest/storeTest",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
         }
       ]
     }

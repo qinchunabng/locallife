@@ -1,5 +1,3 @@
-<!--pages/message/message.wxml-->
-<text>pages/message/message.wxml</text>
 <view>{{m1.toUpper(username)}}</view>
 <view>{{m2.toLower(country)}}</view>
 
@@ -9,3 +7,10 @@
   }
 </wxs>
 <wxs src="../../utils/tools.wxs" module="m2"></wxs>
+
+<view>{{numA}} + {{numB}} = {{sum}}</view>
+<van-button type="primary" bindtap="btnHandler1" data-step="{{1}}">numA + 1</van-button>
+<van-button type="danger" bindtap="btnHandler1" data-step="{{-1}}">numA - 1</van-button>
+
+<view>~~~~~~~</view>
+<my-numbers></my-numbers>
